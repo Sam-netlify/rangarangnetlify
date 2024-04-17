@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  rangarang_cloud:
+    container_name: rangarang_cloud
+    image: rangarang_cloud
+    build: .
+    ports:
+      - "3000:3000"
